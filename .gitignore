@@ -1,0 +1,28 @@
+# Build output
+/build/
+
+# clangd / editor tooling
+/.cache/
+/compile_commands.json
+
+# CMake artifacts (in case of in-source configure)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake.stamp
+
+# Compiled objects / executables / libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
