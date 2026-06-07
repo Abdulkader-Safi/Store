@@ -26,3 +26,6 @@ Makefile
 .vscode/
 .idea/
 .DS_Store
+
+# Local state database
+state.db
